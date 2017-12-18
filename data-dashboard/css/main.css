@@ -1,0 +1,61 @@
+body{
+margin: 0px;
+padding: 0px;
+}
+
+header {
+  background: #FFC107;
+  height: 100px;
+  padding: 10px;
+}
+
+header img {
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+float: right;
+background: gray;
+color: #FFF;
+padding: 7px;
+border-radius: 5px;
+}
+
+h2{
+  text-align: center;
+}
+
+#menu{
+  clear: inherit;
+  width: 20%;
+  height:300px;
+  /*border: 1px solid gray;*/
+  border-right: 1px solid gray;
+}
+
+#overview{
+  width: 79%;
+  height: 500px;
+  /*border: solid 1px gray;*/
+}
+.select{
+  display: block;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.containers{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.miniDivs{
+  border: solid 1px #000;
+  width: 105px;
+  height: 105px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
