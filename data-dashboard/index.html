@@ -13,31 +13,37 @@
       </header>
       <div id="menu" class="containers">
         <h2>Generaciones por sede</h2>
-        <select id="arequipa" class="select">
-          <option value="" >Arequipa</option>
-          <option value="g1">2016-2</option>
-          <option value="g2">2017-1</option>
-        </select>
-        <select id="cdmx" class="select">
-          <option value="" >CDMX</option>
-          <option value="g1">2017-1</option>
-          <option value="g2">2017-2</option>
-        </select>
-        <select id="lima" class="select">
-          <option value="">Lima</option>
-          <option value="g1">2016-2</option>
-          <option value="g2">2017-1</option>
-          <option value="g3">2017-2</option>
-        </select>
-        <select id="chile" class="select">
-          <option value="">Chile</option>
-          <option value="g1">2016-2</option>
-          <option value="g2">2017-1</option>
-          <option value="g3">2017-2</option>
+
+
+
+
+        <select id="el-select">
+          <option disabled="disabled"
+                  hidden="hidden"
+                  selected="selected">Selecciona la opcion de tu interes </option>
+          <optgroup label="Arequipa" id="arequipa" class="select">
+          <option value="g1" id="arequipa1" data-year = '2016-2'>2016-2</option>
+          <option value="g2" id="arequipa2" data-year = '2017-1'>2017-1</option>
+          </optgroup>
+          <optgroup label="CDMX" id="cdmx" class="select">
+            <option value="g1" data-year = '2017-1'>2017-1</option>
+            <option value="g2" data-year = '2017-2'>2017-2</option>
+          </optgroup>
+          <optgroup label="Lima" id="lima" class="select">
+            <option value="g1" data-year = '2016-2'>2016-2</option>
+            <option value="g2" data-year = '2017-1'>2017-1</option>
+            <option value="g3" data-year = '2017-2'>2017-2</option>
+          </optgroup>
+          <optgroup label="Santiago de Chile" id="chile" class="select">
+            <option value="g1" data-year = '2016-2'>2016-2</option>
+            <option value="g2"data-year = '2017-1'>2017-1</option>
+            <option value="g3" data-year = '2017-2'>2017-2</option>
+          </optgroup>
         </select>
       </div>
       <section id="overview">
-
+      </section>
+      <section id="overview2">
 
       </section>
 
